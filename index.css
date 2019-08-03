@@ -1,0 +1,132 @@
+html,
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article
+{
+    width: 100%;
+    height: 100%;
+}
+
+nav
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #333;
+    font-weight: bold;
+    font-size: .8em;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    z-index: 1;
+}
+
+.nav__container
+{
+    display: flex;
+    align-items: center;
+}
+
+.center_box
+{
+    width: 1142px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.light_text
+{
+    color: #bbb;
+}
+
+.topper_text
+{
+    color: #fff;
+    margin-left: 13%;
+}
+
+.icon_exit
+{
+    margin-left: auto;
+}
+
+header
+{
+    background: #37addf;
+    height: 97px;
+    padding-top: 40px;
+}
+
+h1
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.head__container
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.date_topper
+{
+    height: 60px;
+    background: #2d6eb2;
+    width: 100%;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+section.date_topper > p
+{
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+
+.date_topper__day
+{
+    font-weight: bold;
+}
+
+.topic
+{
+    display: flex;
+}
+
+.day
+{
+    background-color: #fff;
+    margin-top: 25px;
+    border-radius: 5px 5px 2px 2px;
+}
+
+.topic__time
+{
+    width: 205px;
+    color: #3675b8;
+    font-weight: bold;
+    font-size: 2em;
+    display: block;
+    padding: 19px 0;
+    text-align: center;
+}
