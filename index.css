@@ -130,3 +130,37 @@ section.date_topper > p
     padding: 19px 0;
     text-align: center;
 }
+
+button
+{
+    background-color: #3675b8;
+    width: 158px;
+    height: 41px;
+    border-width: 0;
+    border-radius: 20.5px 0 0 20.5px;
+}
+
+.action__button__status
+{
+    background-color: #3675b8;
+    width: 41px;
+    height: 41px;
+    margin-left: 1px;
+    border-radius: 0 50% 50% 0;
+}
+
+.action__button
+{
+    display: flex;
+}
+
+.topic__info
+{
+    display: flex;
+
+}
+
+section.topic__content
+{
+    width: 937px;
+}
