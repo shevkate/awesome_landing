@@ -193,7 +193,10 @@ section.topic__content
 .topic__hr
 {
     margin-right: 31px;
-    border: 1px solid #237ad7;
+    border: none;
+    color: #237ad7;
+    background-color: #237ad7;
+    height: 1px;
 }
 
 details
@@ -214,7 +217,14 @@ details > summary
     cursor: pointer;
     display: inline;
     position: relative;
-    top: -30px;
+    top: -57px;
     background-color: #f0f0f0;
-    padding: 4px 4px 10px;
+    padding: 4px 15px 7px;
+    margin-top: 31px;
+    color: #999;
+}
+
+.topic__description > p
+{
+    padding-bottom: 10px;
 }
