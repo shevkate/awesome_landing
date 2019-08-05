@@ -66,7 +66,7 @@ nav
 
 header
 {
-    background: #37addf;
+    background: #2587b8;
     height: 97px;
     padding-top: 40px;
 }
@@ -89,7 +89,7 @@ h1
 .date_topper
 {
     height: 60px;
-    background: #2d6eb2;
+    background: #237ad7;
     width: 100%;
     color: #fff;
     display: inline-flex;
@@ -123,7 +123,7 @@ section.date_topper > p
 .topic__time
 {
     width: 205px;
-    color: #3675b8;
+    color: #237ad7;
     font-weight: bold;
     font-size: 2em;
     display: block;
@@ -131,36 +131,90 @@ section.date_topper > p
     text-align: center;
 }
 
-button
+.action__button > button
 {
-    background-color: #3675b8;
+    background-color: #237ad7;
     width: 158px;
     height: 41px;
     border-width: 0;
     border-radius: 20.5px 0 0 20.5px;
+    font-weight: bold;
+    color: #fff;
 }
 
 .action__button__status
 {
-    background-color: #3675b8;
+    background-color: #237ad7;
     width: 41px;
     height: 41px;
     margin-left: 1px;
     border-radius: 0 50% 50% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .action__button
 {
     display: flex;
+
 }
 
 .topic__info
 {
     display: flex;
-
+    justify-content: space-between;
+    margin-top: 12px;
 }
 
 section.topic__content
 {
     width: 937px;
+    font-size: .9em;
+    font-weight: 100;
+}
+
+.action
+{
+    margin-top: 19px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action__description
+{
+    color: #999;
+    font-size: .9em;
+    margin-top: 8px;
+}
+
+.topic__hr
+{
+    margin-right: 31px;
+    border: 1px solid #237ad7;
+}
+
+details
+{
+    width: 635px;
+    background-color: #f0f0f0;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+details > summary::-webkit-details-marker
+{
+    display:none;
+}
+
+details > summary
+{
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    top: -30px;
+    background-color: #f0f0f0;
+    padding: 4px 4px 10px;
 }
