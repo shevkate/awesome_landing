@@ -311,3 +311,23 @@ details[open] summary
     margin-top: 8px;
     margin-left: 30px;
 }
+
+.hours_splitter
+{
+    border: none;
+    color: #a3a3a3;
+    background-color: #e6e6e6;
+    height: 5px;
+}
+
+.topic__archive
+{
+    width: 205px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 2em;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
