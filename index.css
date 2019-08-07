@@ -217,11 +217,12 @@ details > summary
     list-style: none;
     padding: 4px 15px 7px;
     color: #999;
+    margin-bottom: 13px;
 }
 
 .topic__description > p
 {
-    padding-bottom: 10px;
+    line-height: 1.5em;
 }
 
 li
@@ -237,7 +238,7 @@ ul
 {
     background-color: #f0f0f0;
     padding: 15px 16px 7px 14px;
-    margin-top: 0;
+    margin-top: -13px;
     list-style-type: none;
 }
 
@@ -270,19 +271,19 @@ details[open] summary
 .topic__speakers__person
 {
     display: flex;
+    width: 285px;
 }
 
 .topic__speakers__people
 {
     display: flex;
-    justify-content: space-between;
 }
 
 .topic__speakers__post
 {
     font-size: .7em;
     margin-top: 0;
-    margin-bottom: 29px;
+    margin-bottom: 8px;
 }
 
 .topic__speakers__info
@@ -290,11 +291,23 @@ details[open] summary
     display: flex;
     margin-left: 11px;
     flex-direction: column;
-    width: calc(100% - 145px);
+    width: 145px;
 }
 
 .topic__speakers__name
 {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.topic__speakers__arrow
+{
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    width: 16px;
+    height: 16px;
+    transform: rotate(315deg);
+    border-color: #a3a3a3;
+    margin-top: 8px;
+    margin-left: 30px;
 }
