@@ -271,12 +271,13 @@ details[open] summary
 .topic__speakers__person
 {
     display: flex;
-    width: 285px;
+    width: calc(100%/3);
 }
 
 .topic__speakers__people
 {
     display: flex;
+    width: calc(100% - 85px);
 }
 
 .topic__speakers__post
@@ -300,7 +301,7 @@ details[open] summary
     margin-bottom: 0;
 }
 
-.topic__speakers__arrow
+.arrow-box__arrow
 {
     border-bottom: 1px solid;
     border-right: 1px solid;
@@ -308,8 +309,7 @@ details[open] summary
     height: 16px;
     transform: rotate(315deg);
     border-color: #a3a3a3;
-    margin-top: 8px;
-    margin-left: 30px;
+    margin-top: 10px;
 }
 
 .hours_splitter
@@ -331,3 +331,19 @@ details[open] summary
     margin-bottom: 0;
     text-align: center;
 }
+
+.topic__speakers__list
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-box
+{
+    display: flex;
+    justify-content: center;
+    width: 85px;
+    cursor: pointer;
+}
+
+
