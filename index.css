@@ -156,7 +156,7 @@ section.date_topper > p
 .action__button_unsubscribe > .action__button__main,
 .action__button_unsubscribe > .action__button__status
 {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2 ;
     color: #39f;
 }
 
@@ -164,7 +164,6 @@ section.date_topper > p
 {
     background-image: url("./img/tick.svg");
 }
-
 
 .action__button__status
 {
@@ -183,6 +182,21 @@ section.date_topper > p
 {
     display: flex;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.action__button_video > .action__button__main
+{
+    background-color: #f2f2f2;
+    height: 53px;
+    color: #237ad7;
+}
+
+.action__button_video > .action__button__status
+{
+    background-color: #237ad7;
+    background-image: url("./img/video.svg");
 }
 
 .topic__info
@@ -343,9 +357,10 @@ details[open] summary
     color: #a3a3a3;
     background-color: #e6e6e6;
     height: 5px;
+    margin: 0;
 }
 
-.topic__archive
+.topic__archive > p
 {
     width: 205px;
     color: #ccc;
