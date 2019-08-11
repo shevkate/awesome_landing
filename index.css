@@ -131,20 +131,43 @@ section.date_topper > p
     text-align: center;
 }
 
-.action__button > button
+.action__button__main
 {
-    background-color: #237ad7;
     width: 158px;
     height: 41px;
     border-width: 0;
     border-radius: 20.5px 0 0 20.5px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.action__button_subscribe > .action__button__main,
+.action__button_subscribe > .action__button__status
+{
+    background-color: #237ad7;
     color: #fff;
 }
 
+.action__button_subscribe > .action__button__status
+{
+    background-image: url("./img/circle.svg");
+}
+
+.action__button_unsubscribe > .action__button__main,
+.action__button_unsubscribe > .action__button__status
+{
+    background-color: #f2f2f2;
+    color: #39f;
+}
+
+.action__button_unsubscribe > .action__button__status
+{
+    background-image: url("./img/tick.svg");
+}
+
+
 .action__button__status
 {
-    background-color: #237ad7;
     width: 41px;
     height: 41px;
     margin-left: 1px;
@@ -152,12 +175,14 @@ section.date_topper > p
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .action__button
 {
     display: flex;
-
+    cursor: pointer;
 }
 
 .topic__info
@@ -345,5 +370,3 @@ details[open] summary
     width: 85px;
     cursor: pointer;
 }
-
-
